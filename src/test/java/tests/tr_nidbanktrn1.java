@@ -20,7 +20,7 @@ import utilities.testmodeller.TestModellerLogger;
 //http://nomisma.cloud.testinsights.io/app/#!/model-engine/guid/a6af8c2b-cea7-4c27-9a9f-f0f88ba4ed7f
 @Listeners(TestNGListener.class)
 @TestModellerSuite(id = 997, profileId = 100893)
-public class tr_nidbanktrn extends TestBase
+public class tr_nidbanktrn1 extends TestBase
 {
 	 
 		String sTestCaseID=null;
