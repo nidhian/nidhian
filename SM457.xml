@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+<test name="saleinvoice_search" enabled="true">
+<classes>
+<class name="SM457.saleinvoice_search">
+</class>
+</classes>
+</test>
+<test name="salesdb_saledb" enabled="true">
+<classes>
+<class name="SM457.salesdb_saledb">
+</class>
+</classes>
+</test>
+</suite>    
+         
+         
+         
+
+ 

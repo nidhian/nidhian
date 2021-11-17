@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="10">
+  <listeners>
+    <listener class-name="reports.TestNGListener"/>
+    <listener class-name="reports.ExtentTestListener"/>
+  </listeners>
+  <test thread-count="5" name="tr_StandardSchem_Receivedamt(failed)" verbose="10">
+    <classes>
+      <class name="tests.Bank_Multicurrency.tr_StandardSchem_Receivedamt">
+        <methods>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl9"/>
+          <include name="allocateData"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl6"/>
+          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl7"/>
+          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl8"/>
+          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl3"/>
+        </methods>
+      </class> <!-- tests.Bank_Multicurrency.tr_StandardSchem_Receivedamt -->
+    </classes>
+  </test> <!-- tr_StandardSchem_Receivedamt(failed) -->
+  <test thread-count="5" name="tr_Standard_Schem_Spent(failed)" verbose="10">
+    <classes>
+      <class name="tests.Bank_Multicurrency.tr_Standard_Schem_Spent">
+        <methods>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl5"/>
+          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl9"/>
+          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlC_setting"/>
+        </methods>
+      </class> <!-- tests.Bank_Multicurrency.tr_Standard_Schem_Spent -->
+    </classes>
+  </test> <!-- tr_Standard_Schem_Spent(failed) -->
+  <test thread-count="5" name="tr_NoVatSchem_Receive(failed)" verbose="10">
+    <classes>
+      <class name="tests.Bank_Multicurrency.tr_NoVatSchem_Receive">
+        <methods>
+          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl1"/>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlC_setting5"/>
+        </methods>
+      </class> <!-- tests.Bank_Multicurrency.tr_NoVatSchem_Receive -->
+    </classes>
+  </test> <!-- tr_NoVatSchem_Receive(failed) -->
+  <test thread-count="5" name="tr_NoVATSchem_Spent(failed)" verbose="10">
+    <classes>
+      <class name="tests.Bank_Multicurrency.tr_NoVATSchem_Spent">
+        <methods>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
+          <include name="closerDriver"/>
+          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlC_setting4"/>
+          <include name="setupReporter"/>
+        </methods>
+      </class> <!-- tests.Bank_Multicurrency.tr_NoVATSchem_Spent -->
+    </classes>
+  </test> <!-- tr_NoVATSchem_Spent(failed) -->
+  <test thread-count="5" name="tr_Flat10Schem_Receive(failed)" verbose="10">
+    <classes>
+      <class name="tests.Bank_Multicurrency.tr_Flat10Schem_Receive">
+        <methods>
+          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlC_setting6"/>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
+          <include name="closerDriver"/>
+          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl6"/>
+          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl9"/>
+          <include name="setupReporter"/>
+          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl2"/>
+          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl5"/>
+        </methods>
+      </class> <!-- tests.Bank_Multicurrency.tr_Flat10Schem_Receive -->
+    </classes>
+  </test> <!-- tr_Flat10Schem_Receive(failed) -->
+  <test thread-count="5" name="trFlat01schem_Spent(failed)" verbose="10">
+    <classes>
+      <class name="tests.Bank_Multicurrency.trFlat01schem_Spent">
+        <methods>
+          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl3"/>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl1"/>
+          <include name="allocateData"/>
+          <include name="closerDriver"/>
+          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl2"/>
+          <include name="setupReporter"/>
+        </methods>
+      </class> <!-- tests.Bank_Multicurrency.trFlat01schem_Spent -->
+    </classes>
+  </test> <!-- trFlat01schem_Spent(failed) -->
+</suite> <!-- Failed suite [Suite] -->

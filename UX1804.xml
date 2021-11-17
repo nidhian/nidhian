@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+<test name="dsadvance_advncbtn" enabled="true">
+<classes>
+<class name="tests.Ticket_UX_1804.dsadvance_advncbtn">
+</class>
+</classes>
+</test>
+<test name="dashboard_verify" enabled="true">
+<classes>
+<class name="tests.Ticket_UX_1804.dashboard_verify">
+</class>
+</classes>
+</test>
+<test name="dsunrecon_dsunrecon" enabled="true">
+<classes>
+<class name="tests.Ticket_UX_1804.dsunrecon_dsunrecon">
+</class>
+</classes>
+</test>
+<test name="dspendrec_dspenrec" enabled="true">
+<classes>
+<class name="tests.Ticket_UX_1804.dspendrec_dspenrec">
+</class>
+</classes>
+</test>
+<test name="dsunsale_Dtor" enabled="true">
+<classes>
+<class name="tests.Ticket_UX_1804.dsunsale_Dtor">
+</class>
+</classes>
+</test>
+<test name="Unsale_Dtor_Dump" enabled="true">
+<classes>
+<class name="tests.Ticket_UX_1804.Unsale_Dtor_Dump">
+</class>
+</classes>
+</test>
+<test name="Unr_Purchase_Cror" enabled="true">
+<classes>
+<class name="tests.Ticket_UX_1804.Unr_Purchase_Cror">
+</class>
+</classes>
+</test>
+<test name="Unr_Purchase_Cr_dump" enabled="true">
+<classes>
+<class name="tests.Ticket_UX_1804.Unr_Purchase_Cr_dump">
+</class>
+</classes>
+</test>
+<test name="BankingDS_bankDSALE" enabled="true">
+<classes>
+<class name="tests.Ticket_UX_1804.BankingDS_bankDSALE">
+</class>
+</classes>
+</test>
+<test name="Verify_Bankname" enabled="true">
+<classes>
+<class name="tests.Ticket_UX_1804.Verify_Bankname">
+</class>
+</classes>
+</test>
+ <test name="dsAdbnk_dsbanking" enabled="true">
+<classes>
+<class name="tests.Ticket_UX_1804.dsAdbnk_dsbanking">
+</class>
+</classes>
+</test>
+<test name="Report_Profit" enabled="true">
+<classes>
+<class name="tests.Ticket_UX_1804.Report_Profit">
+</class>
+</classes>
+</test>
+<test name="BalRpt_Balancerpt" enabled="true">
+<classes>
+<class name="tests.Ticket_UX_1804.BalRpt_Balancerpt">
+</class>
+</classes>
+</test>
+<test name="Ds_rpt_director" enabled="true">
+<classes>
+<class name="tests.Ticket_UX_1804.Ds_rpt_director">
+</class>
+</classes>
+</test>
+ </suite>    
+         
+ 
+ 
+         
+
+ 

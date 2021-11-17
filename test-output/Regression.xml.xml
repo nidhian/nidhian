@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+<test name="SaleInToReconcile_DefaultProfile" enabled="true">
+<classes>
+<class name="tests.SaleInToReconcile_DefaultProfile">
+</class>
+</classes>
+</test>
+<test name="searchtrans_searchtranandclick" enabled="true">
+<classes>
+<class name="tests.searchtrans_searchtranandclick">
+</class>
+</classes>
+</test>
+ </suite>    
+         
+         
+         
+
+ 

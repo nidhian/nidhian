@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+<test name="ledger_report" enabled="true">
+<classes>
+<class name="tests.Ticket311.ledger_report">
+</class>
+</classes>
+</test>
+<test name="leger_report_llp" enabled="true">
+<classes>
+<class name="tests.Ticket311.leger_report_llp">
+</class>
+</classes>
+</test>
+<test name="Ledger_report_soltrad" enabled="true">
+<classes>
+<class name="tests.Ticket311.Ledger_report_soltrad">
+</class>
+</classes>
+</test>
+<test name="ledger_report_Partnership" enabled="true">
+<classes>
+<class name="tests.Ticket311.ledger_report_Partnership">
+</class>
+</classes>
+</test>
+<test name="ledger_report_PLC" enabled="false">
+<classes>
+<class name="tests.Ticket311.ledger_report_PLC">
+</class>
+</classes>
+</test>
+<test name="JournalEntry_JournalEntry" enabled="true">
+<classes>
+<class name="tests.Ticket311.JournalEntry_JournalEntry">
+</class>
+</classes>
+</test>
+<test name="sm311_Nominalcode" enabled="true">
+<classes>
+<class name="tests.Ticket311.sm311_Nominalcode">
+</class>
+</classes>
+</test>
+<test name="sm311_Nominalcode_LLP" enabled="true">
+<classes>
+<class name="tests.Ticket311.sm311_Nominalcode_LLP">
+</class>
+</classes>
+</test>
+<test name="nominalcode_Soletrander" enabled="true">
+<classes>
+<class name="tests.Ticket311.nominalcode_Soletrander">
+</class>
+</classes>
+</test>
+
+<test name="sm311_Nominalcode_Partnership" enabled="true">
+<classes>
+<class name="tests.Ticket311.sm311_Nominalcode_Partnership">
+</class>
+</classes>
+</test>
+
+<test name="sm311_Nominalcode_PLC" enabled="true">
+<classes>
+<class name="tests.Ticket311.sm311_Nominalcode_PLC">
+</class>
+</classes>
+</test>
+
+
+
+
+
+<test name="Supplier__311" enabled="true">
+<classes>
+<class name="tests.Ticket311.Supplier__311">
+</class>
+</classes>
+</test>
+<test name="Supplier__notmatchdata" enabled="true">
+<classes>
+<class name="tests.Ticket311.Supplier__notmatchdata">
+</class>
+</classes>
+</test>
+</suite>   

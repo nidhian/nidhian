@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+<test name="ScriptEditVATFlatP_DefaultProfile" enabled="true">
+<classes>
+<class name="tests.FtoF.ScriptEditVATFlatP_DefaultProfile">
+</class>
+</classes>
+</test>
+<test name="SaleInToPartialReconcile_SupplierBill_DefaultProfile" enabled="true">
+<classes>
+<class name="tests.FtoF.SaleInToPartialReconcile_SupplierBill_DefaultProfile">
+</class>
+</classes>
+</test>
+<test name="SaleInToReconcileForCreditNote_F" enabled="true">
+<classes>
+<class name="tests.FtoF.SaleInToReconcileForCreditNote_F">
+</class>
+</classes>
+</test>
+<test name="SaleInToReconcileForVATOnly_DefaultProfile" enabled="true">
+<classes>
+<class name="tests.FtoF.SaleInToReconcileForVATOnly_F">
+</class>
+</classes>
+</test>
+<test name="ScriptVATReturn1stVATReturnReport_F" enabled="true">
+<classes>
+<class name="tests.FtoF.ScriptVATReturn1stVATReturnReport_F">
+</class>
+</classes>
+</test>
+<test name="ScriptVATReturn2stVATReturnReport_F" enabled="true">
+<classes>
+<class name="tests.FtoF.ScriptVATReturn2stVATReturnReport_F">
+</class>
+</classes>
+</test>
+<test name="ScriptVATReturn3stVATReturnReport_F" enabled="true">
+<classes>
+<class name="tests.FtoF.ScriptVATReturn3stVATReturnReport_F">
+</class>
+</classes>
+</test>
+<test name="ScriptFlatToFlatP_DefaultProfil" enabled="true">
+<classes>
+<class name="tests.FtoF.ScriptFlatToFlatP_DefaultProfile">
+</class>
+</classes>
+</test>
+<test name="ScriptPostVATReturn1stVATReturnReport_F" enabled="true">
+<classes>
+<class name="tests.FtoF.ScriptPostVATReturn1stVATReturnReport_F">
+</class>
+</classes>
+</test>
+<test name="FtoF.ScriptPostVATReturn2stVATReturnReport_F" enabled="true">
+<classes>
+<class name="tests.FtoF.ScriptPostVATReturn2stVATReturnReport_F">
+</class>
+</classes>
+</test>
+<test name="ScriptPostVATReturn3stVATReturnReport_F" enabled="true">
+<classes>
+<class name="tests.FtoF.ScriptPostVATReturn3stVATReturnReport_F">
+</class>
+</classes>
+</test>
+ </suite>    
+         
+         
+         
+
+ 
