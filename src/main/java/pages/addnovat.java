@@ -84,7 +84,7 @@ public class addnovat extends BasePage
         }
 
 		elem.click();
-          	
+          	System.out.println("Ok test");
 
 		ExtentReportManager.passStep(m_Driver, "Click_AddVatbtn");
 
